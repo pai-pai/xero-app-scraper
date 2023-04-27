@@ -24,7 +24,7 @@ An example record is:
 - support@xavier-analytics.com
 
 ___
-### How it works
+## How it works
 
 #### Step 1
 After some investigation of the https://apps.xero.com/uk website I found out that every function/industry list page makes an API request. For example a request for 'Agriculture' industry apps:
@@ -47,3 +47,6 @@ ___
 ### Result:
 After merge two csv data with help of pandas package the final file contains all of the desired data:
 ![xero_apps](https://pai-pai-github-images.s3.amazonaws.com/xero-app-scraper-result.png)
+
+## Technology stack
+- Scrapy
